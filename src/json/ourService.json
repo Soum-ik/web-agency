@@ -1,0 +1,42 @@
+[
+    {
+        "tittle" : "Web Desgin",
+        "Dec" : "Crafting captivating web designs that captivate visitors and leave a lasting impression is our expertise at Stack Web. Elevate your online presence with our stunning landing pages.",
+        "image1": "w.jpg",
+        "image2": "w1.jpg",
+        "image3": "w3.jpg",
+        "image4": "w4.jpg"
+    },
+    {
+        "tittle" : "E-commerce ",
+        "Dec" : "At Stack Web, we specialize in creating irresistible e-commerce platforms that entice customers and drive sales. Let us transform your online store into a seamless shopping experience that keeps customers coming back for more.",
+        "image1": "e.jpg",
+        "image2": "e3.jpg",
+        "image3": "e2.jpg",
+        "image4": "e5.jpg"
+    },
+    {
+        "tittle" : "Bussiness Landing Page",
+        "Dec" : "At Stack Web, we excel in crafting business landing pages that convey professionalism and captivate audiences. Elevate your brand's online presence with our sleek and impactful designs tailored to impress and engage potential clients",
+        "image1": "b.jpg",
+        "image2": "b3.jpg",
+        "image3": "b1.jpg",
+        "image4": "b4.jpg"
+    },
+    {
+        "tittle" : "Dashboard  Management Service",
+        "Dec" : "Empower your business with our Dashboard Management Service, streamlining data visualization and decision-making. Gain insights at a glance and optimize performance effortlessly with our intuitive platform",
+        "image1": "d1.jpg",
+        "image2": "d3.jpg",
+        "image3": "d4.jpg",
+        "image4": "d5.jpg"
+    },
+    {
+        "tittle" : "Custom Web Application",
+        "Dec" : "Elevate your business with our Custom Web Application solutions tailored to your unique needs. From streamlined workflows to enhanced user experiences, we craft intuitive and powerful applications to propel your digital presence forward",
+        "image1": "d.jpg",
+        "image2": "e4.jpg",
+        "image3": "b1.jpg",
+        "image4": "w5.jpg"
+    }
+]
