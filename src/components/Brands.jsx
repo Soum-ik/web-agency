@@ -1,14 +1,14 @@
 import Image from "next/image";
-import PageLayout from "./PageLayout";
-import getBrandList from "@/lib/getBrandList";
+import PageLayout from "./PageLayout"; 
+ 
 
 const Brands = async() => {
-  const brands = await getBrandList();
+ 
 
   return (
-    <div className="bg-white ">
-      <PageLayout>
-        <div className="grid place-items-center grid-cols-4 gap-5 my-3 w-full">
+    <div className="  ">
+      {/* <PageLayout> */}
+        {/* <div className="grid place-items-center grid-cols-4 gap-5 my-3 w-full">
           {brands.map((brand, idx) => {
             return(
               <Image
@@ -21,8 +21,8 @@ const Brands = async() => {
           />
             )
           })}
-        </div>
-      </PageLayout>
+        </div> */}
+      {/* </PageLayout> */}
     </div>
   );
 };

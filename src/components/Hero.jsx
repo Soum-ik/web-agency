@@ -1,16 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import Brands from "./Brands";
-import PageLayout from "./PageLayout";
-import getHeroList from "@/lib/getHeroList";
-
-const Hero = ({ title, description, images }) => {
+import PageLayout from "./PageLayout";   
+const Hero = ({  images }) => {
   return (
     <div className="bg-[#D7F5DC] min-h-screen pb-5 pt-16">
       <PageLayout>
         <div className="flex flex-wrap lg:flex-nowrap gap-5 md:gap-12 items-center justify-between  min-h-[75vh] w-full">
           <div className="max-w-2xl">
-            <h1 className="text-black text-5xl font-semibold mb-5">{title}</h1>
+            <h1 className="text-black text-5xl font-semibold mb-5">Build & Launch without problems</h1>
             <p className="font-medium mb-5 max-w-lg">
               Empowering Your Digital Presence. Creativity Meets Functionality.
               Web Design that Stands Out. Elevate Your Digital Identity.
@@ -28,7 +26,7 @@ const Hero = ({ title, description, images }) => {
                   key={idx}
                 >
                   <Image
-                    src={image}
+                    src={`/images/ourService/${image}`}
                     alt="title"
                     height={500}
                     width={500}

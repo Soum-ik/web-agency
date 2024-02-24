@@ -1,6 +1,5 @@
 import { BsArrowRight } from "react-icons/bs";
-import PageLayout from "./PageLayout";
-import getWorkList from "@/lib/getWorkList";
+import PageLayout from "./PageLayout"; 
 import WorkStatisticCard from "./WorkStatisticCard";
 import worksList from "../json/work.json";
 
